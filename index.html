@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div  class="container">
+        <h1>
+            Calculadora Simples
+        </h1>
+        <div class="entrada">
+            <div>
+                <input type="number" id="input1">
+            </div>
+
+            <div>
+                <input type="number" id="input2">
+            </div>
+        </div>
+
+        <div class="escolha">
+            <input type="radio" id="adição" name="adicao" value="1"> 
+            <label for="adição">+</label>
+
+            <input type="radio" id="subtração" name="subtracao" value="2"> 
+            <label for="subtração">-</label>
+
+            <input type="radio" id="multiplicação" name="multiplicacao" value="3"> 
+            <label for="multiplicação">*</label>
+
+            <input type="radio" id="divisão" name="divisao" value="4"> 
+            <label for="divisão">/</label>
+        </div>
+
+        <div>
+            <button onclick="outcome()" type="submit"  class="botão">Calcular</button>
+        </div>
+
+        <h1 id="resultado"> </h1>
+    </div>   
+ <script src="index.js"></script>   
+</body>
+</html>

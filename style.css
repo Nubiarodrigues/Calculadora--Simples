@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DB7093;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.container {
+    color: white;
+    background-color: #1e1e1e;
+    border: 5px solid #8B008B;
+    width: 200px;
+    max-width: 40%;
+    min-width: 30%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+#input1 {
+    width: 240px;
+    font-size: 20px;
+    height: 30px;
+    color: #DC143C;
+      
+}
+
+#input2 {
+    width: 240px;
+    font-size: 20px;
+    height: 30px;
+    color: #DC143C;
+}
+
+.escolha {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.botão {
+    margin-top: 25px;
+    color: white;
+    background-color: #FF69B4;
+    width: 200px;
+    height: 40px;
+}
